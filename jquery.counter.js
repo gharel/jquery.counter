@@ -63,7 +63,7 @@
 					$(numberFrom).delay(counter.settings.delay).animate(numberTo, opts)
 					flag = 1
 				}
-			})
+			}).trigger('scroll.counter')
 		}
 
 		function getDecimal(num) {
